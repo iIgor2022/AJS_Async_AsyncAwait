@@ -1,0 +1,36 @@
+{
+  "name": "ajs_async_asyncawait",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iIgor2022/AJS_Async_AsyncAwait.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iIgor2022/AJS_Async_AsyncAwait/issues"
+  },
+  "homepage": "https://github.com/iIgor2022/AJS_Async_AsyncAwait#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.5.0",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.30.0"
+  },
+  "description": ""
+}
